@@ -21,7 +21,7 @@ body::before{
 
 .page{
   width: 750px;
-  margin: auto;
+  margin: 0 auto 392px;
 }
 
 header{
@@ -140,6 +140,15 @@ form h2{
   padding: 16px;
 }
 
+.input-wrapper label span{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+  margin-left: 10px;
+}
+
 .checkbox-wrapper{
   position: relative;
 }
@@ -175,4 +184,36 @@ form h2{
 
 .checkbox-wrapper input:focus + label::before{
   outline: 2px solid black;
+}
+
+.timer{
+  display: flex;
+  gap: 10px;
+}
+
+.date-colum-2{
+  display: flex;
+  gap: 32px;
+}
+
+.date-colum-2 .input-wrapper-date{
+  width: 300px;
+}
+
+.date-colum-2 .timer .input-wrapper input{
+  width: 140px;
+}
+
+.button{
+  width: 622px;
+  height: 51px;
+  margin: 64px;
+  background: #F67669;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
 }
